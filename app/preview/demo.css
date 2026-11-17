@@ -1,0 +1,28 @@
+.demo-toolbar, .demo-entry-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.demo .panel { border-top: 3px solid #633347; }
+.demo .notice p { margin: 0; }
+.demo .muted { margin-block: 4px 0; }
+.demo-date { max-width: 22rem; }
+.demo .demo-reset {
+  min-height: 44px;
+  border: 0;
+  background: transparent;
+  color: #563043;
+  padding: 6px 0;
+  text-decoration: underline;
+  text-underline-offset: .25em;
+}
+
+.demo-entry-heading h3 { margin: 0 0 .3rem; }
+.demo-status { text-transform: capitalize; align-self: flex-start; }
+.demo-status-pending { color: #633e1b; background: #f6ead1; }
+.demo-status-confirmed { color: #254b3b; background: #dfece3; }
+.demo-status-declined, .demo-status-cancelled { color: #68364a; background: #f4e4ea; }
+.demo-reschedule { padding: 16px; border: 1px solid #ded0c1; background: #fcf8ef; }
